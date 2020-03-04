@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+
+  - "10"
+
+cache: yarn
+
+branches:
+
+  only:
+
+    - master
+
+before_script:
+
+  - "npm install --global firebase-tools"
+
+  - "npm install --global @gridsome/cli"
+
+script:
+
+  - "gridsome build"
+
+after_success:
+
+  - "firebase deploy --token=${FIREBASE_API_TOKEN}"

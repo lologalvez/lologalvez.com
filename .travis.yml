@@ -21,6 +21,7 @@ before_script:
 script:
 
   - "gridsome build"
+  - "mv dist ../public"
 
 after_success:
 

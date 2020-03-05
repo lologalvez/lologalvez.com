@@ -8,12 +8,16 @@
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+			Software Engineer
+			<br/>
+			Aspiring software crafter | learning maniac | long-time lurker
+		</p>
+		<p class="author__intro">
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+			<a href="//twitter.com/lologalvez"><font-awesome :icon="['fab', 'twitter']" size="lg"/></a>
+			<a href="//github.com/lologalvez"><font-awesome :icon="['fab', 'github']" size="lg"/></a>
 		</p>
 
 	</div>
@@ -23,6 +27,7 @@
 query {
   metadata {
     siteName
+	siteDescription
   }
 }
 </static-query>
@@ -36,7 +41,7 @@ export default {
 <style lang="scss">
 .author {
 	margin: 0 auto;
-	max-width: 500px;
+	max-width: 550px;
 	text-align: center;
 	padding: calc(var(--space) / 2) 0;
 
@@ -58,8 +63,11 @@ export default {
 	&__links {
 		margin-top: -.5em;
 		a {
-			margin: 0 .5em;
+			color: black;
+			margin: 0 .7em;
 		}
 	}
+
+
 }
 </style>

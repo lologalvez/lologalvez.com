@@ -18,6 +18,8 @@ before_script:
 
   - "npm install --global @gridsome/cli"
 
+  - "npm i"
+
 script:
 
   - "gridsome build"

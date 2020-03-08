@@ -2,10 +2,10 @@
 title: Evita el bloqueo al hacer TDD usando Tranformation Priority Premise
 date: 2020-03-06
 published: true
-tags: ['meta']
+tags: ['tdd', 'tpp', 'cleancode']
 series: false
 canonical_url: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg 
+cover_image: ./images/nonexisting.jpg
 description: ""
 ---
 ![TDD Cycle](./images/tdd_cycle.jpeg)
@@ -555,7 +555,7 @@ Con esta sencilla kata hemos podido ver que al aplicar las transformaciones que 
 - Descubrimiento de los ejes del problema
 - Solución más genérica y con menos duplicación
 
-TPP es una de las herramientas de las que disponemos para garantizar que nos ajustamos a los preceptos del desarrollo guiado por tests. Este listado de transformaciones no contiene reglas escritas en piedra, pero si son una pequeña guía para evitar el bloqueo en el ciclo del TDD, especialmente al pasar de rojo a verde.
+TPP es una de las herramientas de las que disponemos para garantizar el ajuste a los preceptos del desarrollo guiado por tests. Este listado de transformaciones no contiene reglas escritas en piedra, pero si son una pequeña guía para evitar el bloqueo en el ciclo de TDD, especialmente al pasar de rojo a verde.
 
 
 

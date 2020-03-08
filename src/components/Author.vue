@@ -8,9 +8,9 @@
 		</h1>
 
 		<p class="author__intro">
-			Software Engineer
+			Software Developer
 			<br/>
-			Aspiring software crafter | learning maniac | long-time lurker
+			aspiring crafter | learning maniac | long-time lurker
 		</p>
 		<p class="author__intro">
 		</p>
@@ -40,6 +40,7 @@ export default {
 
 <style lang="scss">
 .author {
+	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
 	max-width: 550px;
 	text-align: center;
@@ -50,6 +51,7 @@ export default {
 		width: 90px;
 		height: 90px;
 		margin-bottom: 1em;
+		border: 3px solid teal;
 	}
 
 	&__intro {
@@ -58,12 +60,13 @@ export default {
 
 	&__site-title {
 		font-size: 1.5em;
+		color: teal;
 	}
 
 	&__links {
 		margin-top: -.5em;
 		a {
-			color: black;
+			color: teal;
 			margin: 0 .7em;
 		}
 	}

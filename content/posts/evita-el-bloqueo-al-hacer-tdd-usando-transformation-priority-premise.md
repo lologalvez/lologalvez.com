@@ -1,5 +1,5 @@
 ---
-title: Evita el bloqueo al hacer TDD usando Tranformation Priority Premise
+title: Evita el bloqueo al hacer TDD usando Transformation Priority Premise
 date: 2020-03-06
 published: true
 tags: ['tdd', 'tpp', 'cleancode']

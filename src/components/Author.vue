@@ -18,6 +18,7 @@
 		<p class="author__links">
 			<a href="//twitter.com/lologalvez"><font-awesome :icon="['fab', 'twitter']" size="lg"/></a>
 			<a href="//github.com/lologalvez"><font-awesome :icon="['fab', 'github']" size="lg"/></a>
+			<a href="//linkedin.com/in/manuel-galvez/"><font-awesome :icon="['fab', 'linkedin-in']" size="lg"/></a>
 		</p>
 
 	</div>
